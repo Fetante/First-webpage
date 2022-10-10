@@ -1,0 +1,53 @@
+
+
+body{    
+   
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding: 0;
+   
+    height: 100vh;
+    background-image: url("img/moon.jpg"); 
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: right;
+    
+    margin: 0;
+    height: 5vh;
+}
+
+.navbar li {
+   display: inline-block;
+}
+ 
+.navbar a {
+    margin-top: 15%;
+    padding-right: 20%;
+    text-align: center;
+    color: #FFF;
+    width: 100px;
+    display: inline-flex;
+}
+
+.navbar a:hover{
+    color: rgb(211, 106, 8);
+} 
+
+.welcome{    
+    line-height: 100%;
+    letter-spacing: -.03em;
+    color: #FFFFFF;
+    position: relative;
+    font-size: 2rem;
+    text-align: center;
+
+    
+} 
+
+.welcome h4{
+    text-align: center;
+}
+
+
